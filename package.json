@@ -1,0 +1,19 @@
+{
+  "name": "tailwindcss-coffee-style",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "npx tailwindcss -i ./src/input.css -o ./public/output.css --watch",
+    "start:dev": "live-server ./public"
+  },
+  "keywords": [],
+  "author": "hieuvan.me",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.7"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}
