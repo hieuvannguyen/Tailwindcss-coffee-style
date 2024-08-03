@@ -66,7 +66,8 @@
       </header>
 
       <main>
-        <div class="h-[530px] bg-[url('./img/bg-slider.jpg')] bg-cover bg-no-repeat bg-bottom">
+        <div
+          class="h-[530px] bg-[url('./img/bg-slider.jpg')] bg-cover bg-no-repeat bg-bottom mb-24">
           <div
             class="slider__overlay w-full h-full bg-gray-950 bg-opacity-40 flex justify-center items-center">
             <div class="slider__content mx-16 text-white text-center">
@@ -86,27 +87,32 @@
             </div>
           </div>
         </div> <!-- end of slider -->
-
-        <div class="justify-center items-center">
-          <div class="px-4 sm:px-16 md:px-32 lg:px64 xl:px-96 py-32 text-center">
+        <div class="ct-subheadline">
+          <div class="ct-subheadline-deco-line"></div>
+          <div class="ct-subheadline-label">Our Coffee Story</div>
+          <div class="ct-subheadline-deco-line"></div>
+        </div>
+        <div
+          class="flex flex-col lg:flex-row gap-8 lg:gap-4 justify-center items-center w-[95%] lg:w-[65%] mx-auto mb-24">
+          <div class="basis-1/2">
+            <video autoplay loop muted class="w-full h-full object-cover min-h-[350px]">
+              <source src="./videos/video-story.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="basis-1/2 text-center lg:text-left lg:pl-6">
             <h2 class="text-3xl mb-6 font-normal leading-10">
-              Even the all-powerful Pointing has no control about the blind texts.
+              What is your most special coffee?
             </h2>
             <p class="text-lg font-normal text-gray-500 leading-7 mb-6">
-              It is a paradisematic country, in which roasted parts of sentences fly into your
-              mouth.
-              <br /> Even the
-              all-powerful Pointing has no control about the blind texts it is an almost
-              unorthographic life One
-              day however a small line of blind text by the name of Lorem Ipsum decided to leave
-              for the far World
-              of Grammar.
+              The French Press is a brewing method that comes closets to cupping. Cupping is the
+              prescribed method by which coffee should be judged. Nothing separates the water from
+              the coffee. To properly discover the flavour, it is best to drink the coffee this way.
+              Everyone has their favorite brewing method.
             </p>
             <a href="#"
               class="text-lg font-normal text-coffee-500 hover:text-coffee-700 relative after:absolute after:-bottom-2 after:left-0 after:bg-coffee-100 hover:after:bg-coffee-400 after:h-0.5 after:w-full after:transition-all after:ease-in-out after:duration-400">
               Read the full Story</a>
           </div>
-
         </div> <!-- end of story -->
 
         <div class="ct-subheadline">
@@ -455,7 +461,7 @@
         </div> <!-- end of coffee-magazine -->
 
         <div
-          class="bg-[url('./img/parallax.jpg')] bg-cover bg-no-repeat bg-center bg-fixed h-[400px] mb-24 w-[100vw] relative left-[calc(50%-50vw)]">
+          class="bg-[url('./img/parallax.jpg')] bg-cover bg-no-repeat bg-center bg-fixed h-[400px] md:h-[500px] mb-24 w-[100vw] relative left-[calc(50%-50vw)]">
         </div> <!-- end of parallax -->
 
         <div class="ct-subheadline">
