@@ -15,7 +15,7 @@
 }
 
 .ct-button {
-  @apply text-gray-900 text-center uppercase tracking-wider px-8 py-4 text-sm font-semibold cursor-pointer hover:bg-opacity-90;
+  @apply text-center uppercase tracking-wider px-8 py-4 text-sm font-semibold cursor-pointer hover:bg-opacity-90;
 }
 
 .ct-onSale-tag {
