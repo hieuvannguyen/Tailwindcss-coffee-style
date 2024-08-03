@@ -13,10 +13,10 @@
 
 <body>
   <div id="root">
-    <div class="content-wrapper font-karla max-w-screen-2xl text-base mx-auto px-8">
+    <div class="font-karla max-w-screen-2xl text-base mx-auto px-8">
       <header class="p-6 mx-auto ">
         <nav class="flex flex-row justify-between items-center relative">
-          <h1 class="logo basis-2/6 ct-logo">CoffeeStyle. </h1>
+          <h1 class="basis-2/6 ct-logo">CoffeeStyle. </h1>
 
           <ul id="ct-top-menu"
             class="basis-3/6 hidden lg:flex lg:items-center lg:justify-end lg:gap-8 uppercase text-xs tracking-widest text-gray-500 font-medium">
@@ -546,7 +546,7 @@
         </div> <!-- end of lifestyle-story -->
 
         <div
-          class="flex flex-col justify-center items-center h-[350px] bg-[#1d1f2e] mb-24 w-[100vw] relative left-[calc(50%-50vw)] lg:w-full lg:left-0">
+          class="flex flex-col justify-center items-center h-[350px] bg-[#1d1f2e] w-[100vw] relative left-[calc(50%-50vw)] lg:w-full lg:left-0">
           <div class="flex justify-center items-center">
             <div class="w-8 h-px bg-gray-700"></div>
             <div class="text-center uppercase mx-4 tracking-widest text-gray-400 font-bold text-xs">
@@ -567,8 +567,42 @@
         </div> <!-- end of subscribe -->
       </main>
 
-      <footer class="h-[350px] bg-slate-400">
-        <p>Footer</p>
+      <footer class="w-[95%] xl:w-[65%] mx-auto pt-24 pb-24 text-gray-500 text-sm">
+        <div class="flex gap-8">
+          <div class="basis-2/6">
+            <a href="#" class="ct-logo mb-4 inline-block">CoffeeStyle.</a>
+            <p class="mb-24">
+              Delivering the best coffee life since 1996. From coffee geeks to the real ones.
+            </p>
+            <span class="text-gray-400 hover:text-coffee-600">CoffeeStyle Inc. © 1996</span>
+          </div>
+          <div class="basis-1/6 flex flex-col gap-5">
+            <h4 class="uppercase font-semibold tracking-widest text-gray-600">Menu</h4>
+            <ul class="flex flex-col gap-1">
+              <li><a class="hover:text-coffee-600" href="#">Home</a></li>
+              <li><a class="hover:text-coffee-600" href="#">Our Products</a></li>
+              <li><a class="hover:text-coffee-600" href="#">About</a></li>
+              <li><a class="hover:text-coffee-600" href="#">Contact</a></li>
+              <li><a class="hover:text-coffee-600" href="#">Styleguide</a></li>
+            </ul>
+          </div>
+          <div class="basis-1/6 flex flex-col gap-5">
+            <h4 class="uppercase font-semibold tracking-widest text-gray-600">Follow Us</h4>
+            <ul class="flex flex-col gap-1">
+              <li><a class="hover:text-coffee-600" href="#">Facebook</a></li>
+              <li><a class="hover:text-coffee-600" href="#">Instagram</a></li>
+              <li><a class="hover:text-coffee-600" href="#">Pinterest</a></li>
+              <li><a class="hover:text-coffee-600" href="#">Twitter</a></li>
+            </ul>
+          </div>
+          <div class="basis-2/6 flex flex-col gap-1">
+            <h4 class="uppercase font-semibold tracking-widest text-gray-600 mb-4">Contact Us</h4>
+            <span class="mb-3">We're Always Happy to Help</span>
+            <a class="text-3xl text-gray-900 hover:text-coffee-600"
+              href="mailto:us@coffeestyle.io">us@coffeestyle.io</a>
+            <span class="mt-16 text-gray-400 hover:text-coffee-600">Powered by hieuvan.me</span>
+          </div>
+        </div>
       </footer>
     </div> <!-- end of content-wrapper -->
   </div> <!-- end of root -->

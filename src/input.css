@@ -7,7 +7,7 @@
 **/
 
 .ct-logo {
-  @apply text-center text-xl font-semibold cursor-pointer;
+  @apply text-gray-900 text-center text-xl font-semibold cursor-pointer;
 }
 
 .ct-icon {
